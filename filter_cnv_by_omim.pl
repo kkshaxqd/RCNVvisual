@@ -35,7 +35,7 @@ if($temp1[6]=~/\|/)
  else{
 		if($omim{$temp1[6]}){$flag++}           #如果没有\|的cnv
 		}
-if($flag){print OUTFILE "$_\t$flag\n"}     #使用flag控制
+if($flag){print OUTFILE "$_\n"}     #使用flag控制
 
 }
 close CNVFILE;

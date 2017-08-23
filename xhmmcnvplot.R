@@ -4,7 +4,6 @@ args <- commandArgs(TRUE)
 getfile=read.table(args[1],header=T)
 #getfile=getfile[order(as.numeric(getfile$chr),decreasing=F,method=c("auto", "shell", "radix")),]
 ##
-#ploidy <- 2 # amplification==3, deletion==-1 
 #tiff(filename = paste(file,".tif",sep = ""), width = 640, height = 480,
     #units = "px", pointsize = 20, bg = "white", res = NA)
 pdfout<-paste(getfile,".pdf",sep = "")
@@ -33,9 +32,7 @@ for (i in (chrom)) {
     segments(getfile$cnvstart[region],getfile$Type[region],getfile$cnvstop[region],getfile$Type[region],col = "green",lwd=2)
     region <- which(getfile$chr==i  & getfile$Type==-1 )
     segments(getfile$cnvstart[region],getfile$Type[region],getfile$cnvstop[region],getfile$Type[region],col = "red",lwd=2)
-    #region <- which(ratio$Chromosome==i  & ratio$Call==ploidy)
-    #segments(ratio$Start[region],ratio$Call[region],ratio$End[region],ratio$Call[region],col = "darkgreen",lwd=2)
-    
+
     }
 }
 dev.off()

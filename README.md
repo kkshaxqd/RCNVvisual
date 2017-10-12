@@ -35,4 +35,6 @@ ID	chr	po	NAME	CN	color
 20211	1	976542	AGRN	2	"#33FF0080"
 20213	1	976847	AGRN	2	"#33FF0080"
 ```
-[tupian]:https://github.com/kkshaxqd/RCNVvisual/blob/master/%E4%B8%8B%E8%BD%BD%20(2).png
+
+[tupian]:https://github.com/kkshaxqd/RCNVvisual/blob/master/%E4%B8%8B%E8%BD%BD%20(2).png?raw=true
+![][tupian]

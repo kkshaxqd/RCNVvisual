@@ -23,7 +23,7 @@ xhmmusefor25kbcnv.60qual.DATA.2-2-700.cnv.anno 这个文件时我之前用的过
 ### step1.1
 只过滤  filter_cnv_by_omim.pl
 
-##新的使用shiny交互网页展示cnv结果。
+## 新的使用shiny交互网页展示cnv结果。
 
 shinyapp发布在https://kkshaxqd2017.shinyapps.io/cnvvisualapp/
 

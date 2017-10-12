@@ -23,8 +23,12 @@ xhmmusefor25kbcnv.60qual.DATA.2-2-700.cnv.anno 这个文件时我之前用的过
 ### step1.1
 只过滤  filter_cnv_by_omim.pl
 
-##新的使用shiny交互网页展示cnv结果。shinyapp发布在https://kkshaxqd2017.shinyapps.io/cnvvisualapp/
+##新的使用shiny交互网页展示cnv结果。
+
+shinyapp发布在https://kkshaxqd2017.shinyapps.io/cnvvisualapp/
+
 上传数据文件，展示相应的图与表
+
 ```
 数据格式如下
 ID	chr	po	NAME	CN	color
@@ -35,6 +39,7 @@ ID	chr	po	NAME	CN	color
 20211	1	976542	AGRN	2	"#33FF0080"
 20213	1	976847	AGRN	2	"#33FF0080"
 ```
+CNV绘制表图
 
 [tupian]:https://github.com/kkshaxqd/RCNVvisual/blob/master/%E4%B8%8B%E8%BD%BD%20(2).png?raw=true
 ![][tupian]
